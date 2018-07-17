@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>947278864700-3v5rbhaotk0m3iatlvt50591p5r8bstk.apps.googleusercontent.com</string>
+	<string>958165403034-et43dm9itbqrq54v1l19ohtve6tdgq21.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.947278864700-3v5rbhaotk0m3iatlvt50591p5r8bstk</string>
+	<string>com.googleusercontent.apps.958165403034-et43dm9itbqrq54v1l19ohtve6tdgq21</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD_IRAHBG9dngnZAqQ8T5jGE1sy0BENne8</string>
+	<string>AIzaSyCuJgF08rdF_zbCVrjlo38fhS0UJ4UJEg0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>947278864700</string>
+	<string>958165403034</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.oto.appDecider</string>
+	<string>com.decider1</string>
 	<key>PROJECT_ID</key>
-	<string>decider-41226</string>
+	<string>decider1-b175a</string>
 	<key>STORAGE_BUCKET</key>
-	<string>decider-41226.appspot.com</string>
+	<string>decider1-b175a.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:947278864700:ios:c45a795e96de2687</string>
+	<string>1:958165403034:ios:135526e7ad087b2b</string>
 	<key>DATABASE_URL</key>
-	<string>https://decider-41226.firebaseio.com</string>
+	<string>https://decider1-b175a.firebaseio.com</string>
 </dict>
 </plist>

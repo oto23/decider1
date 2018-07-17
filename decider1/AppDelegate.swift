@@ -16,8 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
         FirebaseApp.configure()
+        
+        
+        let storyboard = UIStoryboard(name: "login", bundle: .main)
+        
+        
+        if let initialViewController = storyboard.instantiateInitialViewController() {
+            
+            window?.rootViewController = initialViewController
+            
+            window?.makeKeyAndVisible()
+        }
+        
+        let myDatabase = Database.database().reference()
+        myDatabase.setValue("we have data")
         return true
     }
 

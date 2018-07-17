@@ -14,7 +14,8 @@
 		520EDA0920FE51F4007B4E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA0820FE51F4007B4E58 /* Assets.xcassets */; };
 		520EDA0C20FE51F4007B4E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA0A20FE51F4007B4E58 /* LaunchScreen.storyboard */; };
 		520EDA1420FE5296007B4E58 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA1320FE5296007B4E58 /* login.storyboard */; };
-		520EDA1820FE60E6007B4E58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA1720FE60E6007B4E58 /* GoogleService-Info.plist */; };
+		520EDA1A20FE6A3E007B4E58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA1920FE6A3E007B4E58 /* GoogleService-Info.plist */; };
+		520EDA1F20FE6C7F007B4E58 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 		520EDA0B20FE51F4007B4E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		520EDA0D20FE51F5007B4E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520EDA1320FE5296007B4E58 /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
-		520EDA1720FE60E6007B4E58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		520EDA1920FE6A3E007B4E58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		7C35A27DA080CD5AD22E7A58 /* Pods-decider1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decider1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decider1/Pods-decider1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,15 +76,40 @@
 			isa = PBXGroup;
 			children = (
 				520EDA0120FE51F2007B4E58 /* AppDelegate.swift */,
-				520EDA0320FE51F2007B4E58 /* ViewController.swift */,
-				520EDA0520FE51F2007B4E58 /* Main.storyboard */,
-				520EDA1320FE5296007B4E58 /* login.storyboard */,
+				520EDA1D20FE6BC9007B4E58 /* supporting files */,
+				520EDA1C20FE6B66007B4E58 /* storyboards */,
+				520EDA1B20FE6B5C007B4E58 /* Controllers */,
 				520EDA0820FE51F4007B4E58 /* Assets.xcassets */,
-				520EDA0A20FE51F4007B4E58 /* LaunchScreen.storyboard */,
-				520EDA1720FE60E6007B4E58 /* GoogleService-Info.plist */,
-				520EDA0D20FE51F5007B4E58 /* Info.plist */,
 			);
 			path = decider1;
+			sourceTree = "<group>";
+		};
+		520EDA1B20FE6B5C007B4E58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				520EDA0320FE51F2007B4E58 /* ViewController.swift */,
+				520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		520EDA1C20FE6B66007B4E58 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				520EDA1320FE5296007B4E58 /* login.storyboard */,
+				520EDA0520FE51F2007B4E58 /* Main.storyboard */,
+				520EDA0A20FE51F4007B4E58 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		520EDA1D20FE6BC9007B4E58 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				520EDA1920FE6A3E007B4E58 /* GoogleService-Info.plist */,
+				520EDA0D20FE51F5007B4E58 /* Info.plist */,
+			);
+			path = "supporting files";
 			sourceTree = "<group>";
 		};
 		9EDEB77FD21A4DFFF19730B8 /* Pods */ = {
@@ -157,7 +184,7 @@
 			files = (
 				520EDA1420FE5296007B4E58 /* login.storyboard in Resources */,
 				520EDA0C20FE51F4007B4E58 /* LaunchScreen.storyboard in Resources */,
-				520EDA1820FE60E6007B4E58 /* GoogleService-Info.plist in Resources */,
+				520EDA1A20FE6A3E007B4E58 /* GoogleService-Info.plist in Resources */,
 				520EDA0920FE51F4007B4E58 /* Assets.xcassets in Resources */,
 				520EDA0720FE51F2007B4E58 /* Main.storyboard in Resources */,
 			);
@@ -173,15 +200,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-decider1/Pods-decider1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -235,6 +266,7 @@
 			files = (
 				520EDA0420FE51F2007B4E58 /* ViewController.swift in Sources */,
 				520EDA0220FE51F2007B4E58 /* AppDelegate.swift in Sources */,
+				520EDA1F20FE6C7F007B4E58 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = decider1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/decider1/supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = decider1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/decider1/supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
