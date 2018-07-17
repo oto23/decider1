@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func messagebutton(_ sender: Any) {
+    }
+    
+    @IBAction func contactsbutton(_ sender: Any) {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

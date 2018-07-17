@@ -58,8 +58,8 @@
 			children = (
 				520EDA0120FE51F2007B4E58 /* AppDelegate.swift */,
 				520EDA0320FE51F2007B4E58 /* ViewController.swift */,
-				520EDA0520FE51F2007B4E58 /* Main.storyboard */,
 				520EDA1320FE5296007B4E58 /* login.storyboard */,
+				520EDA0520FE51F2007B4E58 /* Main.storyboard */,
 				520EDA0820FE51F4007B4E58 /* Assets.xcassets */,
 				520EDA0A20FE51F4007B4E58 /* LaunchScreen.storyboard */,
 				520EDA0D20FE51F5007B4E58 /* Info.plist */,
