@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252D8FCE20FE689700B365F7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D8FCD20FE689700B365F7 /* ContactsViewController.swift */; };
 		520EDA0220FE51F2007B4E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EDA0120FE51F2007B4E58 /* AppDelegate.swift */; };
 		520EDA0420FE51F2007B4E58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EDA0320FE51F2007B4E58 /* ViewController.swift */; };
 		520EDA0720FE51F2007B4E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA0520FE51F2007B4E58 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		252D8FCD20FE689700B365F7 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		520ED9FE20FE51F2007B4E58 /* decider1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = decider1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		520EDA0120FE51F2007B4E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		520EDA0320FE51F2007B4E58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				520EDA0120FE51F2007B4E58 /* AppDelegate.swift */,
 				520EDA0320FE51F2007B4E58 /* ViewController.swift */,
+				252D8FCD20FE689700B365F7 /* ContactsViewController.swift */,
 				520EDA1320FE5296007B4E58 /* login.storyboard */,
 				520EDA0520FE51F2007B4E58 /* Main.storyboard */,
 				520EDA0820FE51F4007B4E58 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			files = (
 				520EDA0420FE51F2007B4E58 /* ViewController.swift in Sources */,
 				520EDA0220FE51F2007B4E58 /* AppDelegate.swift in Sources */,
+				252D8FCE20FE689700B365F7 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
