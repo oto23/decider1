@@ -32,16 +32,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDk-ej-M1J">
                                 <rect key="frame" x="210" y="206" width="149" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD:decider1/Base.lproj/Main.storyboard
                                 <state key="normal" title="Button" image="images-2"/>
                                 <connections>
                                     <action selector="contactsbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LY5-ed-9XI"/>
                                     <segue destination="Jh5-sg-S7f" kind="show" id="HGX-ZW-pdI"/>
                                 </connections>
-=======
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" backgroundImage="message"/>
->>>>>>> 37ccbd098e4d7ef2ad5c591a2305871814bc1c86:decider1/storyboards/Base.lproj/Main.storyboard
                             </button>
                         </subviews>
                         <color key="backgroundColor" name="tcSeafoamGreen"/>

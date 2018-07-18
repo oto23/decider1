@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		252D8FCE20FE689700B365F7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D8FCD20FE689700B365F7 /* ContactsViewController.swift */; };
-=======
 		1FEF902272A3D8203129053F /* Pods_decider1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0C981F7AD88CC9343709CB /* Pods_decider1.framework */; };
->>>>>>> 37ccbd098e4d7ef2ad5c591a2305871814bc1c86
 		520EDA0220FE51F2007B4E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EDA0120FE51F2007B4E58 /* AppDelegate.swift */; };
 		520EDA0420FE51F2007B4E58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EDA0320FE51F2007B4E58 /* ViewController.swift */; };
 		520EDA0720FE51F2007B4E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA0520FE51F2007B4E58 /* Main.storyboard */; };
@@ -26,12 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		252D8FCD20FE689700B365F7 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-=======
 		2B0C981F7AD88CC9343709CB /* Pods_decider1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decider1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3918A2A53840F16DAFF6F7FF /* Pods-decider1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decider1.release.xcconfig"; path = "Pods/Target Support Files/Pods-decider1/Pods-decider1.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> 37ccbd098e4d7ef2ad5c591a2305871814bc1c86
 		520ED9FE20FE51F2007B4E58 /* decider1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = decider1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		520EDA0120FE51F2007B4E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		520EDA0320FE51F2007B4E58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				520EDA0320FE51F2007B4E58 /* ViewController.swift */,
-<<<<<<< HEAD
 				252D8FCD20FE689700B365F7 /* ContactsViewController.swift */,
-=======
 				520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */,
 				5254F2EA20FEF86E00E97EDA /* CreateUsernameViewController.swift */,
 			);
@@ -116,7 +108,6 @@
 		520EDA1C20FE6B66007B4E58 /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
->>>>>>> 37ccbd098e4d7ef2ad5c591a2305871814bc1c86
 				520EDA1320FE5296007B4E58 /* login.storyboard */,
 				520EDA0520FE51F2007B4E58 /* Main.storyboard */,
 				520EDA0A20FE51F4007B4E58 /* LaunchScreen.storyboard */,
@@ -305,12 +296,9 @@
 				520EDA0420FE51F2007B4E58 /* ViewController.swift in Sources */,
 				5254F2EE20FF02FC00E97EDA /* UserService.swift in Sources */,
 				520EDA0220FE51F2007B4E58 /* AppDelegate.swift in Sources */,
-<<<<<<< HEAD
 				252D8FCE20FE689700B365F7 /* ContactsViewController.swift in Sources */,
-=======
 				5254F2EB20FEF86E00E97EDA /* CreateUsernameViewController.swift in Sources */,
 				520EDA1F20FE6C7F007B4E58 /* loginViewController.swift in Sources */,
->>>>>>> 37ccbd098e4d7ef2ad5c591a2305871814bc1c86
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
