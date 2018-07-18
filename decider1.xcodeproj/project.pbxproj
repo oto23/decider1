@@ -16,6 +16,9 @@
 		520EDA1420FE5296007B4E58 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA1320FE5296007B4E58 /* login.storyboard */; };
 		520EDA1A20FE6A3E007B4E58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520EDA1920FE6A3E007B4E58 /* GoogleService-Info.plist */; };
 		520EDA1F20FE6C7F007B4E58 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */; };
+		5254F2E920FEA47F00E97EDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254F2E820FEA47F00E97EDA /* User.swift */; };
+		5254F2EB20FEF86E00E97EDA /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254F2EA20FEF86E00E97EDA /* CreateUsernameViewController.swift */; };
+		5254F2EE20FF02FC00E97EDA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254F2ED20FF02FC00E97EDA /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		520EDA1320FE5296007B4E58 /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
 		520EDA1920FE6A3E007B4E58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5254F2E820FEA47F00E97EDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5254F2EA20FEF86E00E97EDA /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		5254F2ED20FF02FC00E97EDA /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		7C35A27DA080CD5AD22E7A58 /* Pods-decider1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decider1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decider1/Pods-decider1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				520EDA0120FE51F2007B4E58 /* AppDelegate.swift */,
+				5254F2EC20FF02E000E97EDA /* services */,
+				5254F2E720FEA46F00E97EDA /* models */,
 				520EDA1D20FE6BC9007B4E58 /* supporting files */,
 				520EDA1C20FE6B66007B4E58 /* storyboards */,
 				520EDA1B20FE6B5C007B4E58 /* Controllers */,
@@ -89,6 +97,7 @@
 			children = (
 				520EDA0320FE51F2007B4E58 /* ViewController.swift */,
 				520EDA1E20FE6C7F007B4E58 /* loginViewController.swift */,
+				5254F2EA20FEF86E00E97EDA /* CreateUsernameViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +119,22 @@
 				520EDA0D20FE51F5007B4E58 /* Info.plist */,
 			);
 			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		5254F2E720FEA46F00E97EDA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5254F2E820FEA47F00E97EDA /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5254F2EC20FF02E000E97EDA /* services */ = {
+			isa = PBXGroup;
+			children = (
+				5254F2ED20FF02FC00E97EDA /* UserService.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 		9EDEB77FD21A4DFFF19730B8 /* Pods */ = {
@@ -264,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5254F2E920FEA47F00E97EDA /* User.swift in Sources */,
 				520EDA0420FE51F2007B4E58 /* ViewController.swift in Sources */,
+				5254F2EE20FF02FC00E97EDA /* UserService.swift in Sources */,
 				520EDA0220FE51F2007B4E58 /* AppDelegate.swift in Sources */,
+				5254F2EB20FEF86E00E97EDA /* CreateUsernameViewController.swift in Sources */,
 				520EDA1F20FE6C7F007B4E58 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

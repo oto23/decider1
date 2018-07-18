@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         let myDatabase = Database.database().reference()
-        myDatabase.setValue("we have data")
+        myDatabase.setValue("data")
         return true
     }
 
