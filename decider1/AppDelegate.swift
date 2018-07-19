@@ -29,8 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.makeKeyAndVisible()
         }
         
-        let myDatabase = Database.database().reference()
-        myDatabase.setValue("data")
+
         return true
     }
 

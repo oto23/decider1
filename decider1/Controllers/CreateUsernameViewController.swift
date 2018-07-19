@@ -17,6 +17,9 @@ class CreateUsernameViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     
     @IBOutlet weak var nextButton: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -31,8 +34,15 @@ class CreateUsernameViewController: UIViewController {
         UserService.create(firUser, username: username) { (user) in
             guard let user = user else { return }
             
-            print("Created new user: \(user.username)")
+            User.setCurrent(user)
+            
+            let initialViewController = UIStoryboard.initialViewController(for: .main)
+            self.view.window?.rootViewController = initialViewController
+            self.view.window?.makeKeyAndVisible()
         }
+            
     
 }
+
+
 }
